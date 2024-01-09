@@ -1235,3 +1235,8 @@ section {
     margin: 20px;
 
 }
+
+.bar1{
+
+display: flex;
+}
