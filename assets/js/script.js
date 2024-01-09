@@ -91,3 +91,18 @@ setInterval(()=>{
   }
 
   },30);
+
+
+
+  let n= document.getElementById('number2');
+let c=0;
+
+setInterval(()=>{
+  if (c==60){
+    clearInterval;
+  }else{
+    c+=1;
+    n.innerHTML=`${c}%`;
+  }
+
+  },30);
